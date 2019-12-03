@@ -1,4 +1,4 @@
- function checkDayOfWeek() {
+ function checkDay() {
      var year, month, day;
      var male, female;
 
@@ -14,5 +14,27 @@
      var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
      var femaleNames = ["Akosua", "Adowa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
      var daysOfTheweek = ["sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Satarday"];
-     var dayByIndex =
+     var indexByDate = Math.floor(formula);
+
+     if (year < 0 && year > 2022) {
+         if (month > 0 && month < 13) {
+             if (day > 0 && day < 32) {
+
+                 if (male) {
+                     document.getElementById("result").innerHtml("Your Akan name is" + maleNames[indexByDate] + "you were born on a" [daysOfTheweek][indexByDate]);
+                 } else {
+                     document.getElementById("result").innerHtml("Your Akan name is" + femaleNames[indexByDate] + "you were born on a" [daysOfTheweek][indexByDate]);
+                 }
+
+             } else {
+                 alert("insert the correct day");
+             }
+
+         } else {
+             alert("insert the correct month");
+         }
+
+     } else {
+         alert("insert the corect year");
+     }
  }
