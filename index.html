@@ -19,6 +19,7 @@
                     <div class="jumbotron p-0 left">
                         <div class="overlay">
                             <h1>Akan Names</h1>
+                            <img src="https://images.pexels.com/photos/2857290/pexels-photo-2857290.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
                             <hr class="my-4">
 
                             <p>These are names given to children in ghana according to the day of the week they are born in
@@ -29,32 +30,26 @@
                     </div>
                 </div>
                 <div class="col-md-6 right">
-
-                    <div class="panel col-sm-6 offset-sm-3">
-                        <div class="form-group ">
-                            <label for="century" class="labels">Century</label>
-                            <input type="number" class="form-control" id="century" required min="0" max="30">
-                        </div>
-                        <div class="form-group">
-                            <label for="year" class="labels">Year</label>
-                            <input type="number" class="form-control" id="year" required min="0" max="100">
-                        </div>
-                        <div class="form-group">
-                            <label for="month" class="labels">Month</label>
-                            <input type="number" class="form-control" id="month" required min="0" max="12">
-                        </div>
-                        <div class="form-group">
-                            <label for="day" class="labels">Day of month</label>
-                            <input type="number" class="form-control" id="day" required min="0" max="12">
-                        </div>
-                        <form class="radio-button">
-                            <p>Gender</p>
+                    <form class="ten">
+                        <div class="panel col-sm-6 offset-sm-3">
+                            <div class="form-group">
+                                <label for="year" class="labels">Year</label>
+                                <input type="number" class="form-control" id="year" required min="0" max="100">
+                            </div>
+                            <div class="form-group">
+                                <label for="month" class="labels">Month</label>
+                                <input type="number" class="form-control" id="month" required min="0" max="12">
+                            </div>
+                            <div class="form-group">
+                                <label for="day" class="labels">Day of month</label>
+                                <input type="number" class="form-control" id="day" required min="0" max="12">
+                            </div>
                             <input type="radio" class="genders labels" value="male" id="radio1" name="radi" required>Male
                             <input type="radio" class="genders labels" value="female" id="radio2" name="radi" required>Female
-                            <button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Get Akan Names</button>
-                        </form>
+                            <button type="button" name="button" value="submit" onclick="checkDay()">Get Akan Names</button>
+                    </form>
 
-                        <h1 id="result">phanny</h1>
+                    <h1 id="result"></h1>
                     </div>
                 </div>
             </div>
