@@ -17,6 +17,8 @@ The name is not showing up after submission
 ## Suport and Contact
 If thier is any addition or clarification you can reach me through
 Email:atienophanice1@gmail.com
+## Bug
+The submit button does not return the name and date
 ## lincence
 MIT lincence
 copy right (c)@2019 *owino Phanice*
