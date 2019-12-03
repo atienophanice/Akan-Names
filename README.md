@@ -12,6 +12,8 @@ HTML
 Css
 ## The link
 here is the link to this project https://github.com/atienophanice/Akan-Names
+## Bags
+The name is not showing up after submission
 ## Suport and Contact
 If thier is any addition or clarification you can reach me through
 Email:atienophanice1@gmail.com
